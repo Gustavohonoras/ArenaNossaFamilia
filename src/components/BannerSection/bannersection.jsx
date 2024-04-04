@@ -1,5 +1,5 @@
 
-import img from "../assets/fotomu.png"
+import img from "../assets/fotonoss.png"
 import styles from "./styles.module.scss"
 import {Link} from "react-router-dom";
 export const Bannersection = () =>{

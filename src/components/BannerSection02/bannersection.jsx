@@ -1,5 +1,5 @@
 
-import img from "../assets/fotomt2.png"
+import img from "../assets/foto2no.png"
 import styles from "./styles.module.scss"
 import {Link} from "react-router-dom";
 export const Bannersection2 = () =>{
