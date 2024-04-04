@@ -3,14 +3,14 @@
 
 
 .main{
-background-color: #000066;
+background-color: #f46604;
 
     .header{
         position: fixed;
         top:0;
         left: 0;
         width: 100%;
-        background-color: #000066;
+        background-color: #f46604;
         display: flex;
         justify-content: space-around;
         height: 100px;
@@ -32,7 +32,7 @@ background-color: #000066;
         }
 
         .img{
-            height: 200px;
+            height: 80px;
         }
 
         .button1{
@@ -43,7 +43,7 @@ background-color: #000066;
             font-weight: 900;
             line-height: normal;
             height: 43px;
-            background: #ff6600;
+            background: #0e339e;
             text-decoration: none;
             display: flex;
             align-items: center;
@@ -136,7 +136,7 @@ background-color: #000066;
 
 
         .logo{
-            width: 10%;
+            width: 5%;
         }
         .text{
             display: flex;
@@ -166,7 +166,7 @@ background-color: #000066;
             height: 80px;
 
             .img{
-                height: 80px;
+                height: 50px;
             }
 
             .button{
@@ -241,7 +241,7 @@ background-color: #000066;
             height: 80px;
 
             .img{
-                height: 80px;
+                height: 50px;
             }
 
             .button{

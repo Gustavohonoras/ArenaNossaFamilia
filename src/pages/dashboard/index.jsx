@@ -1,11 +1,11 @@
 import { FaVolleyball } from "react-icons/fa6";
 import styles from "./styles.module.scss"
-import logo from "../assets/ARENA MUT.png"
+import logo from "../assets/logonoss.png"
 import volei from "../assets/VOLEI.png"
 import futvo from '../assets/futv.png'
 import bt from "../assets/BT.png"
 import {Link} from "react-router-dom";
-import logo2 from "../assets/ARENA MUT.png";
+import logo2 from "../assets/logonoss.png";
     export const Dashboard = () =>{
 
         return(
@@ -83,7 +83,7 @@ import logo2 from "../assets/ARENA MUT.png";
 
                 <footer className={styles.footer}>
                     <p className={styles.text}>
-                        <span className={styles.textf}>Arena Multitennis ® 2024 • Todos os direitos reservados</span>
+                        <span className={styles.textf}>Arena Nossa Familia ® 2024 • Todos os direitos reservados</span>
                         <span className={styles.textf}>   Site by Gustavo Honorato</span>
                     </p>
                     <img className={styles.logo} src={logo2}/>

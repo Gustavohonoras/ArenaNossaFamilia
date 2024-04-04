@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import { MapsSection} from "../../components/MapSection";
-import logo from "../assets/ARENA MUT.png";
+import logo from "../assets/logonoss.png";
 import styles from "./styles.module.scss";
 import {WhatsAppButton} from "../../components/WhatsappButton/WhatsappButton.jsx";
 import {Bannersection} from "../../components/BannerSection/bannersection.jsx";
 import {Bannersection2} from "../../components/BannerSection02/bannersection.jsx";
-import logo2 from "../../pages/assets/MULTILARANJA.png"
+import logo2 from "../../pages/assets/logonoss.png"
 
 
 export const Home = () => {
@@ -38,7 +38,7 @@ export const Home = () => {
 
       <footer className={styles.footer}>
         <p className={styles.text}>
-          <span className={styles.textf}>Arena MultiTennis ® 2024 • Todos os direitos reservados</span>
+          <span className={styles.textf}>Arena Nossa Familia ® 2024 • Todos os direitos reservados</span>
           <span className={styles.textf}>   Site by Gustavo Honorato</span>
         </p>
         <img className={styles.logo} src={logo2}/>

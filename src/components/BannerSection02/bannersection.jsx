@@ -13,7 +13,7 @@ export const Bannersection2 = () =>{
                     e fazer desse rolê uma experiência incrível, cheia de vibes positivas e muita diversão.
                     Vem colar com a gente e descobrir por que somos o point top pra quem curte não só dar um
                     gás nos esportes, mas também fortalecer a amizade e curtir momentos de puro lazer.
-                    Tamo esperando você aqui na Mut Tennis em Russas!
+                    Tamo esperando você aqui na Nossa Familia em Limoeiro!
                 </span>
                 <Link to={'/agendamento'} className={styles.button}> Agendar Horário </Link>
             </div>

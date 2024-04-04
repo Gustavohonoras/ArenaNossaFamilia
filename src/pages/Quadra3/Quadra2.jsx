@@ -1,5 +1,5 @@
 import styles from "./styles.module.scss"
-import logo from "../assets/ARENA MUT.png";
+import logo from "../assets/logonoss.png";
 import {Link} from "react-router-dom";
 import {Quadra03} from "../../components/calendar/calendar03.jsx";
 

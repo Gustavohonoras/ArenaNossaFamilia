@@ -1,6 +1,6 @@
 
 import styles from "./styles.module.scss"
-import logo from "../assets/MULTILARANJA.png";
+import logo from "../assets/logonoss.png";
 import {Link} from "react-router-dom";
 
 export const Agendamento = () =>{

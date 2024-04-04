@@ -12,7 +12,7 @@ export const Bannersection = () =>{
                 e descobrir uma atividade que o conecte de maneiras
                 diferentes consigo mesmo é uma excelente oportunidade
                 para renovar as energias, reduzir o estresse e manter-se em
-                forma. Aqui na Arena Multitennis em Russas, temos certeza de que você
+                forma. Aqui na Arena Nossa Familia em Limoeiro, temos certeza de que você
                 encontrará uma variedade de atividades para desfrutar e se divertir
                 ao máximo.
                 </span>
