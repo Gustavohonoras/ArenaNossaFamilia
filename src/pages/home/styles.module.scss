@@ -1,0 +1,311 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.main{
+background-color: #000066;
+
+    .header{
+        position: fixed;
+        top:0;
+        left: 0;
+        width: 100%;
+        background-color: #000066;
+        display: flex;
+        justify-content: space-around;
+        height: 100px;
+        align-items: center;
+
+        .menu{
+            display: flex;
+            gap: 50px;
+        }
+
+        .textheader{
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-decoration: none;
+        }
+
+        .img{
+            height: 200px;
+        }
+
+        .button1{
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            height: 43px;
+            background: #ff6600;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 3px 15px;
+        }
+
+
+    }
+
+    .banner{
+        gap: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 450px;
+        display: flex;
+        background-image: url("../assets/laranja.png");
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 64px;
+        font-weight: 900;
+        line-height: 90px;
+        text-align: center;
+
+    }
+
+    .span{
+
+        color: #FFF;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Roboto;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 50px; /* 152.5% */
+        letter-spacing: 0.8px;
+        width: 1094px;
+        flex-shrink: 0;
+
+        .b{
+            margin-left: 6px;
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 18px;
+            letter-spacing: 0.32px;
+        }
+    }
+
+    .bg2{
+        height: 350px;
+        display: flex;
+        background-image: url(/src/pages/assets/bgAzul.png);
+        justify-content: center;
+        align-items: center;
+
+        .text2{
+            width: 640px;
+            color: #FFF;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+
+    .footer{
+        padding: 50px 0px 50px 0px;
+        flex-shrink: 0;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+
+
+        .logo{
+            width: 10%;
+        }
+        .text{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .textf{
+            color: #000066;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            margin-left: 150px;
+        }
+    }
+
+}
+
+
+@media (max-width: 390px) {
+    .main{
+
+        .header{
+            align-items: center;
+            gap: 10px;
+            height: 80px;
+
+            .img{
+                height: 80px;
+            }
+
+            .button{
+                gap: 10px;
+                justify-content: center;
+            }
+
+            .button1{
+                font-size: 16px;
+                height: 33px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+            }
+
+        }
+
+        .banner{
+            height: 200px;
+            gap: 16px;
+            margin-top:80px;
+
+            .h1{
+                font-size: 28px;
+                width: 80%;
+                line-height: 28px;
+
+            }
+
+            .lupa{
+                width: 40px;
+                margin: 0px 0px 0px -19px;
+            }
+
+            .span{
+                font-size: 12px;
+                width: 310px;
+                line-height: normal;
+            }
+            .b{
+                margin-left: 4px;
+                font-size: 10px;
+            }
+        }
+
+        .bg2{
+            height: 168px;
+
+            .text2{
+                width: 347px;
+                font-size: 20px;
+            }
+        }
+
+
+        .footer{
+        display: flex;
+        .textf{
+            font-size: 12px;
+            margin-left: 10px;
+        }
+    }
+}}
+@media (max-width: 430px) {
+
+    .main{
+
+        .header{
+            align-items: center;
+            gap: 10px;
+            height: 80px;
+
+            .img{
+                height: 80px;
+            }
+
+            .button{
+                gap: 10px;
+                justify-content: center;
+            }
+
+            .button1{
+                font-size: 16px;
+                height: 33px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+            }
+
+        }
+
+        .banner{
+            height: 200px;
+            gap: 16px;
+            margin-top: 80px;
+
+            .h1{
+                font-size: 28px;
+                width: 345px;
+                line-height: 28px;
+
+            }
+
+            .lupa{
+                width: 40px;
+                margin: 0px 0px 0px -19px;
+            }
+
+            .span{
+                font-size: 12px;
+                width: 310px;
+                line-height: normal;
+            }
+            .b{
+                margin-left: 4px;
+                font-size: 10px;
+            }
+        }
+
+        .bg2{
+            height: 168px;
+
+            .text2{
+                width: 347px;
+                font-size: 20px;
+            }
+        }
+
+
+
+        .footer {
+
+        .textf {
+            font-size: 12px;
+            margin-left: 10px;
+        }
+
+    }
+
+}}

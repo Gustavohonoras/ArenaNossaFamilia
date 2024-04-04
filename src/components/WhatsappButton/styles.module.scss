@@ -1,0 +1,29 @@
+
+
+.wpp{
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  position: fixed;
+  bottom:40px;
+  right: 40px;
+}
+
+.icon{
+  margin-top: 16px;
+}
+
+@media (max-width: 390px)  {
+
+  .wpp{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    bottom: 83px;
+    right: 50px;
+  }
+
+  .icon{
+    margin-top: 6px;
+  }
+}

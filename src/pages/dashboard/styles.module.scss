@@ -1,0 +1,330 @@
+
+
+
+
+    .header {
+        display: flex;
+        justify-content: space-around;
+        height: 100px;
+        align-items: center;
+        background-color:#000066;
+
+
+        .img {
+            height: 200px;
+        }
+
+        .button1 {
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            height: 43px;
+            background:#ff6600;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 3px 15px;
+        }
+
+
+    }
+
+
+    .div {
+        margin-top: 163px;
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    .title{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    .h1{
+        color: #ff6600;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 90px; /* 140.625% */
+        letter-spacing: 1.28px;
+    }
+
+    .span{
+        color: #000066;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 70px; /* 140.625% */
+        letter-spacing: 1.28px;
+        text-decoration: none;
+    }
+
+    .bola{
+    height: 2.5em;
+    width: 3em;
+    color: #ff6600;
+    }
+
+    .modalidades{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+        margin-bottom: 200px;
+    }
+
+    .cards{
+        display: flex;
+        gap:90px;
+        align-items: center;
+    }
+
+    .img{
+        height: 220px;
+    }
+    .name_azul{
+        color: #000066;
+        font-family: Roboto;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 45px; /* 70.313% */
+        letter-spacing: 1.28px;
+    }
+    .name{
+        color: #ff6600;
+        font-family: Roboto;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 45px; /* 70.313% */
+        letter-spacing: 1.28px;
+    }
+
+
+    .description{
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 140.625% */
+        letter-spacing: 0.64px;
+        height: 180px;
+
+    }
+    .description1{
+        background: #000066;
+        width: 600px;
+        padding: 10px;
+    }
+
+    .description2{
+        background: #ff6600;
+        width: 600px;
+        padding: 10px;
+    }
+    .footer{
+        padding: 50px 0px 50px 0px;
+        flex-shrink: 0;
+        background-color: #ff6600;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+
+
+        .logo{
+            width: 10%;
+        }
+        .text{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .textf{
+            color: black;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-left: 150px;
+        }
+    }
+
+
+
+
+
+
+
+@media (max-width: 390px) {
+
+    .header{
+        height: 80px;
+
+        .img{
+            height: 80px;
+        }
+
+        .button1{
+            font-size: 16px;
+            height: 22px;
+        }
+    }
+
+    .title{
+        gap: 0px;
+        margin-top: 80px;
+    }
+
+    .h1{
+        font-size: 26px;
+        line-height: 30px;
+        width: 300px;
+    }
+
+    .span{
+        font-size: 16px;
+        line-height: 0px;
+    }
+
+    .modalidades{
+        margin-top: 60px;
+    }
+
+    .img{
+        height: 200px;
+    }
+
+    .cards{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .description{
+        font-size: 18px;
+
+        line-height: 24px;
+    }
+
+
+    .name_azul{
+        font-size: 22px;
+        line-height: 20px;
+    }
+
+    .description1 , .description2{
+        width: 320px;
+    }
+
+    .name{
+        font-size: 22px;
+        line-height: 20px;
+    }
+
+    .footer{
+        display: flex;
+
+    }
+    .textf{
+        font-size: 12px;
+    }
+
+
+
+}
+@media (max-width: 430px) {
+
+        .header{
+            height: 80px;
+
+            .img{
+                height: 80px;
+            }
+
+            .button1{
+                font-size: 16px;
+                height: 22px;
+            }
+        }
+
+        .title{
+            gap: 0px;
+            margin-top: 80px;
+        }
+
+        .h1{
+            font-size: 26px;
+            line-height: 30px;
+            width: 300px;
+        }
+
+        .span{
+            font-size: 16px;
+            line-height: 0px;
+        }
+
+        .modalidades{
+            margin-top: 60px;
+        }
+
+        .img{
+            height: 200px;
+        }
+
+        .cards{
+            flex-direction: column-reverse;
+            gap: 20px;
+        }
+
+        .description{
+            font-size: 18px;
+
+            line-height: 24px;
+        }
+
+
+        .name_azul{
+            font-size: 22px;
+            line-height: 20px;
+        }
+
+        .description1 , .description2{
+            width: 320px;
+        }
+
+        .name{
+            font-size: 22px;
+            line-height: 20px;
+        }
+
+        .footer{
+
+            .textf{
+                font-size: 12px;
+                margin-left: 10px;
+            }
+
+        }
+
+
+    }
